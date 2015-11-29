@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="42" height="22" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileSet2" tilewidth="32" tileheight="32">
+  <image source="TileSet2.png" width="128" height="32"/>
+  <tile id="3">
+   <properties>
+    <property name="isBlocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="42" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92WQQ7AIAgEaeL/39wPAG7pIuCBkxoGHBKWiKxNPEpkvImGlgvNPYHza02ZvMjdbC5GPdUsEUYGN+qedbbzgdVjZFbQ8HJ06me1e0it1Qw3c3ZwwXJXY6xi9WbJYjzN6uXvxDmln5P89Nitvkf+5xTnX4+yXWDvB13cYew43ThfcwIC4XAOAAA=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="42" height="22">
+  <object x="32" y="224" width="32" height="32"/>
+  <object x="800" y="32" width="32" height="32"/>
+  <object x="1280" y="640" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 2" width="42" height="22">
+  <object x="544" y="224" width="32" height="32"/>
+ </objectgroup>
+</map>

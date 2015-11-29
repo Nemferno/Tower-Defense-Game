@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="23" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="AlphaMap" tilewidth="32" tileheight="32" spacing="2">
+  <image source="AlphaMap.png" width="800" height="600"/>
+  <terraintypes>
+   <terrain name="Grass" tile="-1"/>
+  </terraintypes>
+  <tile id="1">
+   <properties>
+    <property name="isBlocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="36" height="23">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC93VwQqAMAgAUHPr/3+5DgVD1GlOiw4yiMg3Zw4BAAujkajMvdqyXbHaNMupWTJM3hpQS6VtzDFzUEtGP1oMkoX2ZT9jd6zU0h966H/SgPegwYXkPY9nEyx3eOvDrVn1ofsen1s9Wk9xc0TqH65PvfWx9Dlnqpg/Vk/m/NHOq8JhnT/R73vvUO8cjFg89zpniHgiFq2XKs9KMlnyrOrfL+z5z6bR8LalIg4Pvvxm8AwAAA==
+  </data>
+ </layer>
+ <objectgroup name="Virus Spawn" width="36" height="23">
+  <object x="1120" y="256" width="32" height="32"/>
+  <object x="0" y="192" width="32" height="32"/>
+  <object x="128" y="576" width="32" height="32"/>
+  <object x="0" y="352" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="SSS Spawn" width="36" height="23">
+  <object x="480" y="256" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Wall Spawn" width="36" height="23">
+  <object x="384" y="256" width="32" height="32"/>
+  <object x="576" y="256" width="32" height="32"/>
+ </objectgroup>
+</map>

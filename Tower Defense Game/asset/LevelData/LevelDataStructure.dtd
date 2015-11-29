@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY virus "virus">
+<!ENTITY darkrover "darkrover">
+<!ENTITY worm "worm">
+<!ENTITY immortal "immortal">
+<!ENTITY trojan "trojan">
+
+<!ELEMENT LevelData (Level)>
+<!ELEMENT Level (Round+)>
+<!ELEMENT Round (Enemies)>
+<!ELEMENT Enemies (#PCDATA)>
+
+<!ATTLIST Level name CDATA #REQUIRED>
+<!ATTLIST Level id CDATA #REQUIRED>
+<!ATTLIST Level subid CDATA #REQUIRED>
+<!ATTLIST Level mapLoc CDATA #REQUIRED>
+<!ATTLIST Level mapTileLoc CDATA #REQUIRED>
+<!ATTLIST Level startCurrency CDATA #REQUIRED>
+<!ATTLIST Level type CDATA #REQUIRED>
+<!ATTLIST Level bossRound CDATA #REQUIRED>
+<!ATTLIST Level bossType CDATA #REQUIRED>
+<!ATTLIST Round restTime CDATA #REQUIRED>
+<!ATTLIST Round respawnTime CDATA #IMPLIED>
+<!ATTLIST Round loop CDATA #IMPLIED>
+<!ATTLIST Round unitAmount CDATA #REQUIRED>
+<!ATTLIST Round cReward CDATA #REQUIRED>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PUBLIC "" "http://s464830726.onlinehome.us/xodia/arcade/tdg/asset/LevelData/LevelDataStructure.dtd" -->
+<!DOCTYPE LevelData SYSTEM "asset/LevelData/LevelDataStructure.dtd">
+<LevelData>
+    <!-- When choosing the type of level, it is important to note
+    	 that there are two types... survival & regular 
+    	 RestTime is in millisecond (1000 ms = 1s) -->
+    <Level name="Test Map" id="-1" subid="1" mapLoc="asset/EndlessModeMap3.tmx" 
+        mapTileLoc="asset" startCurrency="200" type="regular">
+        <!-- Only put loop if it is required -->
+        <Round unitAmount="1" restTime="1000">
+            <!-- Note: The Naming MUST Be Correct So That The Game Can
+            		   Take That Information Easy Since The Software Compares
+            		   The String On The XML With The Name Of The Enum -->
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="1" restTime="1000">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="1" restTime="1000">
+            <Enemies>&immortal;,&worm;</Enemies>
+        </Round>
+    </Level>
+</LevelData>

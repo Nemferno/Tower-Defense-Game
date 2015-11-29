@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="55" height="37" tilewidth="32" tileheight="32" backgroundcolor="#a5a5a5">
+ <tileset firstgid="1" name="TileSet" tilewidth="32" tileheight="32">
+  <image source="TileSet.png" width="64" height="96"/>
+  <tile id="1">
+   <properties>
+    <property name="isBlocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="55" height="37">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TQQ7AIAgFUTS9/5nddtda/EhxFrMz0Uekm1knIiI6pPah3W9W2hRh0zpVs6pmy7Z7SptyHpVt3p3x7hg2bFlsnnlkM2WyXbee7p45e6LNu1PY/m1788dVttU75bXNhG2vLTps2CLuxbbWFhU2bFSjAU/eCYXMHwAA
+  </data>
+ </layer>
+</map>

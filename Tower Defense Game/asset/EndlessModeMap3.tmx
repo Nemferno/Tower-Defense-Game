@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="28" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileSet3" tilewidth="32" tileheight="32">
+  <image source="TileSet3.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="isBlocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="28" height="19">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHMWjeIhiJiyYFHlqm0eOPKmY2uYNNkzv8KJEnt7pcxSP4sGMAVThnRJQCAAA
+  </data>
+ </layer>
+ <objectgroup name="virus spawn" width="28" height="19">
+  <object x="32" y="288" width="32" height="32"/>
+  <object x="832" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="sss" width="28" height="19">
+  <object x="448" y="288" width="32" height="32"/>
+ </objectgroup>
+</map>

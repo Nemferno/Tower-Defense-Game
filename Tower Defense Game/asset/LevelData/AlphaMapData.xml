@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LevelData SYSTEM "asset/LevelData/LevelDataStructure.dtd">
+<LevelData>
+    <Level name="Alpha Map" id="1" subid="1" mapLoc="asset/LevelMaps/AlphaMap.tmx"
+        mapTileLoc="asset/LevelMaps" startCurrency="800" type="survival"
+        bossRound="10" bossType="aberration" cBReward="500">
+        
+        <Round unitAmount="10" restTime="5000" respawnTime="2000" cReward="125">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        
+        <Round unitAmount="15" restTime="5000" respawnTime="2000" cReward="150">
+            <Enemies>&virus;</Enemies>
+        </Round>
+
+        <Round unitAmount="15" restTime="5000" respawnTime="2000" cReward="150">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        
+        <Round unitAmount="13" restTime="5000" respawnTime="2000" cReward="135">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        
+        <Round unitAmount="18" restTime="5000" respawnTime="2000" cReward="175">
+            <Enemies>&virus;</Enemies>
+        </Round>        
+        
+        <Round unitAmount="10" restTime="5000" respawnTime="2000" cReward="215">
+            <Enemies>&virus;,&immortal;</Enemies>
+        </Round>        
+
+        <Round unitAmount="15" restTime="5000" respawnTime="2000" cReward="230">
+            <Enemies>&virus;,&immortal;</Enemies>
+        </Round>
+
+		<Round unitAmount="13" restTime="5000" respawnTime="2000" cReward="225">
+            <Enemies>&virus;,&immortal;</Enemies>
+        </Round>        
+        
+		<Round unitAmount="18" restTime="5000" respawnTime="2000" cReward="275">
+            <Enemies>&virus;,&immortal;</Enemies>
+        </Round>
+		
+		<!-- Rounds 1 - 9 -->
+		
+		<Round unitAmount="20" restTime="5000" respawnTime="1750" cReward="275">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+		
+		<Round unitAmount="22" restTime="5000" respawnTime="1750" cReward="290">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+		
+		<Round unitAmount="25" restTime="5000" respawnTime="1850" cReward="300">
+		    <Enemies>&virus;,&immortal;,&worm;</Enemies>
+		</Round>
+		
+		<Round unitAmount="18" restTime="5000" respawnTime="1750" cReward="305">
+		    <Enemies>&virus;,&immortal;,&worm;</Enemies>
+		</Round>
+		
+		<!-- Rounds 11 - 14 -->
+		
+		<Round unitAmount="23" restTime="5000" respawnTime="1690" cReward="320">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+
+		<Round unitAmount="23" restTime="5000" respawnTime="1680" cReward="322">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+		
+		<Round unitAmount="26" restTime="5000" respawnTime="1650" cReward="345">
+		    <Enemies>&virus;,&immortal;,&darkrover;</Enemies>
+		</Round>
+		
+		<Round unitAmount="15" restTime="5000" respawnTime="1500" cReward="375">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+		
+		<!-- Rounds 16 - 19 -->
+		
+		<Round unitAmount="20" restTime="5000" respawnTime="1890" cReward="375">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+
+		<Round unitAmount="23" restTime="5000" respawnTime="1890" cReward="375">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>		
+		
+		<Round unitAmount="25" restTime="5000" respawnTime="1890" cReward="380">
+		    <Enemies>&virus;,&immortal;</Enemies>
+		</Round>
+		
+		<Round unitAmount="15" restTime="5000" respawnTime="1890" cReward="395">
+		    <Enemies>&virus;,&immortal;,&worm;</Enemies>
+		</Round>
+		
+		<!-- Rounds 21 - 24 -->
+		
+		<Round unitAmount="20" restTime="5000" respawnTime="2000" cReward="410">
+		    <Enemies>&virus;,&immortal;,&darkrover;</Enemies>
+		</Round>
+		
+		<Round unitAmount="24" restTime="7500" respawnTime="2000" cReward="420">
+		    <Enemies>&virus;,&immortal;,&darkrover;</Enemies>
+		</Round>
+		
+		<Round unitAmount="27" restTime="7500" respawnTime="1900" cReward="445">
+		    <Enemies>&virus;,&immortal;,&darkrover;,&trojan;</Enemies>
+		</Round>
+		
+		<Round unitAmount="35" restTime="10000" respawnTime="1800" cReward="475">
+		    <Enemies>&virus;,&immortal;,&darkrover;,&trojan;</Enemies>
+		</Round>
+		
+		<!-- Rounds 26 - 29 -->
+		
+		<Round unitAmount="40" restTime="10000" respawnTime="1800" cReward="500" loop="true">
+		    <Enemies>&virus;,&immortal;,&darkrover;,&trojan;</Enemies>
+		</Round>
+		
+    </Level>
+</LevelData>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LevelData SYSTEM "asset/LevelData/LevelDataStructure.dtd">
+<LevelData>
+    <!-- When choosing the type of level, it is important to note
+    	 that there are two types... survival & regular 
+    	 RestTime is in millisecond (1000 ms = 1s) -->
+    <Level name="Test Map" id="-1" subid="1" mapLoc="asset/EndlessModeMap3.tmx" 
+        mapTileLoc="asset" startCurrency="550" type="survival" bossRound="5" bossType="aberration" cBReward="250">
+        <!-- Only put loop if it is required -->
+        <Round unitAmount="20" restTime="5000" respawnTime="250" cReward="50">
+            <!-- Note: The Naming MUST Be Correct So That The Game Can
+            		   Take That Information Easy Since The Software Compares
+            		   The String On The XML With The Name Of The Enum -->
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="50">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="20" restTime="5000" respawnTime="2500" cReward="50">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="25" restTime="5000" respawnTime="2500" cReward="50">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="25" restTime="5000" respawnTime="2500" cReward="50">
+            <Enemies>&virus;</Enemies>
+        </Round>
+        <Round unitAmount="25" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;</Enemies>
+        </Round>
+        <Round unitAmount="25" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;</Enemies>
+        </Round>
+        <Round unitAmount="35" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;,&darkrover;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;,&darkrover;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;,&darkrover;</Enemies>
+        </Round>
+        <Round unitAmount="20" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&immortal;,&virus;,&darkrover;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;</Enemies>
+        </Round>
+        <Round unitAmount="10" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;</Enemies>
+        </Round>
+        <Round unitAmount="5" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;</Enemies>
+        </Round>
+        <Round unitAmount="15" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;,&darkrover;,&immortal;,&trojan;</Enemies>
+        </Round>
+        <Round unitAmount="25" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;,&darkrover;,&immortal;,&trojan;</Enemies>
+        </Round>
+        <Round unitAmount="35" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;,&darkrover;,&immortal;,&trojan;</Enemies>
+        </Round>
+        <Round unitAmount="40" restTime="5000" respawnTime="2500" cReward="105">
+            <Enemies>&virus;,&worm;,&darkrover;,&immortal;,&trojan;</Enemies>
+        </Round>
+        <Round unitAmount="50" restTime="5000" respawnTime="2500" cReward="105" loop="true">
+            <Enemies>&virus;,&worm;,&darkrover;,&immortal;,&trojan;</Enemies>
+        </Round>
+    </Level>
+</LevelData>
